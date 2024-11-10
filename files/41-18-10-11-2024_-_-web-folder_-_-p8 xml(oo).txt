@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/css" href = "prog8.css"?>
+<employee>
+    <employee1>
+        <card>
+            <name>Name : Amaan Adeen</name>
+            <empid>Id : 4398</empid>
+            <job>Job : Data Analyst</job>
+            <dept>Department : AI</dept>
+            <position>Position : Junior Analyst</position>
+        </card>
+    </employee1>
+    <employee2>
+        <name>Name : Umar Farooq</name>
+        <empid>Id : 2651</empid>
+        <job>Job : Frontend Dev</job>
+        <dept>Department : Web Development</dept>
+        <position>Position : Junior Dev</position>
+    </employee2>
+    <employee3>
+        <name>Name : Tausif Ahmad</name>
+        <empid>Id : 5624</empid>
+        <job>Job : Software Developer</job>
+        <dept>Department : Software Development</dept>
+        <position>Position : Senior Developer</position>
+    </employee3>
+</employee>
+ 

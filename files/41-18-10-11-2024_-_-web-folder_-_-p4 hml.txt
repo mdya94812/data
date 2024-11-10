@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="prog4.css">
+ <title>Empty Box Alert</title>
+ <script>
+ function validateForm() 
+ {
+ const fields = ['name', 'rollNumber', 'course', 'grade'];
+ for (let field of fields) 
+ {
+ const value = document.getElementById(field).value.trim();
+ if (value === '')
+ {
+ alert(`Please fill in the ${field.replace(/([A-Z])/g, ' $1').toLowerCase()} field.`);
+ return false;
+ }
+ }
+ return true;
+ }
+ </script>
+</head>
+<body>
+ <h1>Student Information Form</h1>
+ <form onsubmit="return validateForm()"> 
+ Name <input type="text" id="name" name="name" placeholder="Enter Name"><br><br>
+ RollNumber <input type="text" id="rollNumber" name="rollNumber" placeholder="Enter Roll 
+Number"><br><br>
+ Course <input type="text" id="course" name="course" placeholder="Enter Course"><br><br>
+ Grade <input type="text" id="grade" name="grade" placeholder="Enter Grade"><br><br>
+ <input type="submit" value="Submit">
+ </form>
+</body>
+</html>

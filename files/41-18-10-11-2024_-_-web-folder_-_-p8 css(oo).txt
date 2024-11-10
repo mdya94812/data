@@ -1,0 +1,15 @@
+employee{ display: flex;
+background-color: blanchedalmond; justify-content: center;
+align-items: center;
+}
+employee1,employee2,employee3{ margin: 2%;
+text-align: center; border-style: none; border-radius: 20px;
+border: 1px solid #6e6e6e; display: block;
+width: 80%;
+height: 60%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: large;
+box-shadow: 5px 5px 20px #6e6e6e;
+}
+name,empid,job,dept,position{ display: block;
+}
+ 

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>
+Solution 3
+</title>
+<link rel="stylesheet" href="prog3.css" type="text/css">
+</head>
+<body>
+<div id="container">
+<div id="orderedlist">
+<h3>Ordered list</h3>
+<ol>
+<li>Amaan adeen</li>
+<li>Tausif ahmad</li>
+<li>Umar farooq</li>
+<li>Arbaz ahmad</li>
+</ol>
+</div>
+<div id = "line"></div>
+<h3>Tables</h3>
+<table border="2" width="400">
+<thead>
+<tr>
+<th></th>
+<th>Home starter hosting</th>
+<th>Premium business hosting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Disk space</th>
+<td>250mb</td>
+<td>1gb</td>
+</tr>
+<tr>
+ 
+
+
+<th>Bandwidth</th>
+<td>5gb/mo</td>
+<td>50gb/mo</td>
+</tr>
+<tr>
+<th>Email accounts</th>
+<td>3</td>
+<td>10</td>
+</tr>
+<tr>
+<th>Server</th>
+<td>Shared</td>
+<td>VPS</td>
+</tr>
+<tr>
+<th>Support</th>
+<td>Email</td>
+<td>Telephone and email</td>
+</tr>
+<tr>
+<th>Setup</th>
+<td>FREE</td>
+<td>FREE</td>
+</tr>
+<tr>
+<th>FTP accounts</th>
+<td>1</td>
+<td>5</td>
+</tr>
+<tr>
+<th></th>
+<td colspan="2" style="background-color:rgb(194, 194, 194);">Sign up now and save 10%
+</td>
+</tr>
+</tbody>
+</table><br/>
+<div id="line"></div>
+<h3>Span tag</h3>
+<b>This is <span>span</span> Tag.</b>
+
+</div>
+</body>
+</html>
+ 

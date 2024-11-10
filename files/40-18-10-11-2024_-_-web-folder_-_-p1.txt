@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formatting tags</title>
+</head>
+<body>
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<p>We use the &it;strong&gt;tag to highlight the importance <strong>of this part of the text</strong></p>
+<p>The &it;b&gt; tag is a physical tag that stands for <b>bold text</b>.</p>
+<p>The important part of the text is defined <em> in italic</em></p>
+<p><i>Lorem ipsum</i>, or lipsum as it sometimes known, is dummy text used in laying out print,graphic or web designs</p>
+<p>Learn the Hyper Text Markup Language on <mark>W3Docs.com</mark>.</p>
+<p>She likes <del>violets</del>snowdrops.</p>
+<p><s> i am studying in high school.</s></p>
+<p>she likes <de>violets</de><ins>snowdrops</ins>.</p>
+<p>the	formula	of	water	is	H<sub>2</sub>O,   and	the	formula	of	alcohal isC<sub>2</sub>H<sub>5</sub>OH</p>
+<p>E = mc<sub>2</sub>, where E--kinetic energy,m-mass,c-the speed of light.</p>
+<hr>
+<h1>Basketball</h1>
+<hr>
+<h3>table</h3>
+<table style="width:80% ;">
+<tr>
+<th>Month</th>
+<th>Date</th>
+</tr>
+<tr>
+<td>january</td>
+<td>10.01.2014</td> 
+
+</tr>
+<tr>
+<td>February</td>
+<td>10.01.2014</td>
+</tr>
+</table>
+<hr>
+<h3>Unordered list</h3>
+<ul>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ul><br>
+<h3>Ordered list</h3>
+<ol>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ol>
+</body>
+</html> 

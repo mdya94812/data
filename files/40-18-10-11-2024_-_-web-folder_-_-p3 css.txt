@@ -1,0 +1,14 @@
+#container{ position: absolute; width: 100vw; height: 100vh; display: flex;
+justify-content: center; align-items: center; flex-direction: column; color:blueviolet;
+}
+h3{
+text-decoration: underline; color: dodgerblue;
+}
+span{
+background-color: rgb(116, 248, 116);
+}
+#line{
+position: relative; width: 50vw; height: 1vh;
+background-color: rgb(180, 180, 180); border: 1px solid black;
+}
+ 

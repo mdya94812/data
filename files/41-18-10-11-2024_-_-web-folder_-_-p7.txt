@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Fibonacci Number Generator</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ max-width: 600px;
+ margin: 0 auto;
+ padding: 20px;
+ text-align: center;
+ }
+ div{
+ border: 2px solid black;
+ padding: 10px;
+ background-color: lightblue;
+ }
+ input, button {
+ font-size: 16px;
+ padding: 5px 10px;
+ }
+ #output {
+ margin-top: 20px;
+ font-weight: bold;
+ }
+ </style>
+</head>
+<body>
+ <div>
+ <h1>Fibonacci Generator</h1>
+ <input type="number" id="n" min="1" placeholder="Enter a number">
+ <button onclick="generateFib()">Generate</button>
+ <p id="result"></p>
+ </div>
+<script>
+ function generateFib()
+ {
+ let n = parseInt(document.getElementById('n').value);
+ if (n < 1) return alert("Enter a positive number");
+ 
+ let fib = [ 0, 1 ];
+ for (let i = 2; i < n; i++)
+ {
+ fib[i] = fib[i-1] + fib[i-2];
+ }
+document.getElementById('result').textContent = `First ${n} Fibonacci numbers : [ ${fib.slice(0, n).join(" ] [ ")} ]`;
+ }
+ </script>
+</body>
+</html>
